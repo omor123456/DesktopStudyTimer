@@ -4,6 +4,8 @@ import sqlite3
 from datetime import datetime
 import threading
 
+
+# used tkinter GUI, SQLite database, threading/concurrency layer for timer,   ser action → Event generated → Event loop detects event → Bound function executes → UI updates → Loop continues
 class StudyTimer:
     def __init__(self, root):
         self.root = root
